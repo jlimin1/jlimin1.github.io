@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Jost', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@100;200;300;400;500&family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+/* font-family: 'Gantari', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400&display=swap');
+/* font-family: 'Radio Canada', sans-serif; */
+
+/*
+    #631A1A
+    #FFFFFF
+    #FC4242
+    #7D4646
+    #B02E2E
+ */
+
+* {
+    background-color: #631a1a;
+    color: white;
+}
+
+/* TOP SPACING */
+#top {
+    margin-top: 12%;
+}
+
+
+body {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Gantari', sans-serif, monospace;
+    font-size: x-large;
+    text-shadow: solid black 5px;
+}
+
+header {
+    display: block;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 60%;
+    float: right;
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif, monospace;
+    font-size: x-large;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+aside {
+    border: 4px solid white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.Images {
+    width: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#images {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#images a:hover {
+    filter:brightness(125%);
+}
+
+section {
+    margin-top: 2%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Gantari', sans-serif, monospace;
+    font-size: x-large;
+    text-shadow: solid black 5px;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Gantari', sans-serif, monospace;
+    font-size: larger;
+    text-shadow: solid black;
+}
+
+.RecentThumbnail {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message{
+    text-shadow: black 2px;
+    font-family: 'Radio Canada', sans-serif, monospace;
+    text-align: center;
+}
+
+#thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#thumbnails a:hover {
+    filter: brightness(125 %);
+}
+
+#project {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectThumbnail {
+    padding: 5px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#projectThumbnail a:hover {
+    filter: brightness(125%);
+}
+
+
+/* NAVIGATION BAR */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+li {
+    float: left;
+    font-family: 'Gantari', sans-serif;
+    font-size: 100%;
+}
+
+#home {
+    float: right;
+}
+
+#logo {
+    width: 10%;
+    align-items: center;
+    justify-self: start;
+
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #B02E2E;
+    color: #FFFFFF;
+}
+
+li a:active {
+    background-color: #7D4646;
+    color: #FC4242;
+}
+
+
+/* BOTTOM SPACING */
+#bottom {
+    margin-top: 80px;
+}
+
+
+/* ARTICLE UNIQUE SETTINGS */
+#IndividualImage {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 50%;
+    justify-self: center;
+}
+
+p {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Jost', sans-serif, monospace;
+    font-size: larger;
+}
+
+a:hover {
+    color: #B02E2E;
+}
+
+/* SCROLL BAR*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #B02E2E;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #FC4242;
+}
+
+
+
+@media screen and (min-width:700px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    aside {
+        margin-top: 0;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /*GRIDS*/
+    #top {
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    #IMAGE {
+        grid-row: 2/5;
+        grid-column: 1/3;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #RECENT {
+        grid-row: 5/6;
+        grid-column: 1/4;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #MESSAGE {
+        grid-row: 2/3;
+        grid-column: 3/4;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #PROJECT {
+        grid-column: 3/4;
+        grid-row: 3/5;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    #bottom {
+        grid-column: 1/4;
+        grid-row: 6/7;
+    }
+
+    .Images {
+        display: inline-block;
+        width: 300px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    #thumbnails {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .RecentThumbnail {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    header {
+        display: none;
+    }
+
+    #top {
+        margin-top: 3.5%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 60px;
+    }
+      
+    li {
+        float: left;
+        font-family: 'Gantari', sans-serif;
+        font-size: 100%;
+    }
+    
+    #home {
+        float: right;
+    }
+    
+    #logo {
+        height: 60px;
+        width: 60px;
+        align-items: center;
+        justify-self: start;
+    
+        float: left;
+    }
+      
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #B02E2E;
+    }
+
+    #bottom {
+        margin-top: 80px;
+    }
+
+}
